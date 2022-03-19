@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    background: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    color: #fff;
+    background-image:  url('city.jpg');
+    background-position:  center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.app{
+    background: rgba(0,0,0,0.7);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.app .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.app .header h1{
+    color: orange;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.app .header .searchbar{
+    border-bottom: 2px solid #fbb034;
+    width: 100%;
+    margin-top: 10px;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    color:#fff
+}
+.app .content{
+    margin-top:  1rem;
+    width:18rem; 
+    text-align: center;
+    font-size: 1.3rem;
+}
+.app .content div{
+    margin: 10px;
+}
