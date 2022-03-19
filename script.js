@@ -1,5 +1,6 @@
 const url = "https://api.openweathermap.org/data/2.5/";
-let key;
+// OpenWeatherMap API Key
+const key = "";
 
 const search = document.getElementById("searchbar");
 const content = document.querySelector(".content");
